@@ -1,3 +1,58 @@
+# Enviando e recebendo mensagens fila AWS Sqs
+
+Passos para implementação
+
+Pré requisitos:
+
+1 - Python 3.10
+
+2 - aws-cli
+
+___
+
+1 - Configurando aws para conexão Terraform
+
+```aws configure```
+
+    Access Key
+
+    Secret Access Key
+
+2 - Inicializando o Terraform
+
+```terraform init```
+
+3 - ```terraform validate``` Opcional
+
+4 - Verificando tf files
+
+```terraform plan```
+
+6 - Aplicando as configurações
+
+```terraform apply```
+
+-> yes
+
+7 - Criando o ambiente python
+
+```python -m venv .venv```
+
+8 - ```source .venv/bin/activate```
+
+9 - ```pip install boto3```
+
+9 - ```pip install --upgrade botocore```
+
+10 - Exemplo de envio de mensagens
+
+```python main.py```
+
+11 - Exemplo de recebimento de mensagens
+
+
+## Recursos extra e base de conhecimento
+
 
 
 Como criar comando pra mandar mensagem no SQS através de Command Line?
