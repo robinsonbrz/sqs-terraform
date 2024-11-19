@@ -1,0 +1,12 @@
+# Main Repository
+env/
+.venv
+
+# Infrastructure
+.terraform/
+.terraform.lock.hcl
+terraform.tfstate
+
+# Development API
+__pycache__/
+*.pyc

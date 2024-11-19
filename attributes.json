@@ -1,0 +1,10 @@
+{
+    "AttributeName1": {
+      "DataType": "String",
+      "StringValue": "Robinson"
+    },
+    "AttributeName2": {
+      "DataType": "Number",
+      "StringValue": "777" 
+    }
+  }
